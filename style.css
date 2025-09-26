@@ -59,9 +59,9 @@ body{
     font-weight: 600px;
     font-size: 27px;
     position:relative;
-    top:3px;
+    top:2px;
 }
 .btn{
-    position: relative;
-    margin-left: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
 }
