@@ -68,3 +68,36 @@ body{
 .btn:hover{
     background-color: rgb(255, 0, 234) !important;
 }
+.w-90{
+    width: 94.95% !important;
+}
+.h-65{
+    height: 100vh !important;
+}
+.hero{
+    /* background: linear-gradient(45deg, #78e1f3, #8895f5) */
+    --_gradient-blend-mode: normal;
+--_gradient-blur: 0px;
+
+background: radial-gradient(at 19.2% 86.3%, #78e1f3 0px, transparent 50%), radial-gradient(at 84.8% 81.5%, #8895f5 0px, transparent 50%) #ffffff;;
+mix-blend-mode: var(--_gradient-blend-mode);
+}
+.frosted-backdrop {
+backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
+-webkit-backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
+}
+.loan
+{
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 6px;
+}
+.mt-100{
+    margin-top: 200px !important;
+}
+.ms{
+    margin-left: 100px !important;
+}
