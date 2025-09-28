@@ -101,3 +101,13 @@ backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
 .ms{
     margin-left: 100px !important;
 }
+.customized-h1{
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    font-weight: 900px !important;
+}
+.text{
+    padding-left: 450px !important;
+    font-weight: 500px;
+}
